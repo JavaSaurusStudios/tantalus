@@ -1,0 +1,502 @@
+{
+    "battles": {
+        "3-336": [
+            {
+                "name": "Baku",
+                "max_hp": 10188,
+                "max_hp_override": 188
+            }
+        ],
+        "3-338": [
+            {
+                "name": "King Leo",
+                "max_hp": 10186,
+                "max_hp_override": 186
+            },
+            {
+                "name": "Zenero",
+                "max_hp": 32,
+                "max_hp_override": null
+            },
+            {
+                "name": "Benero",
+                "max_hp": 28,
+                "max_hp_override": null
+            }
+        ],
+        "3-337": [
+            {
+                "name": "Steiner 1",
+                "max_hp": 10169,
+                "max_hp_override": 169
+            }
+        ],
+        "3-335": [
+            {
+                "name": "Steiner 2",
+                "max_hp": 10167,
+                "max_hp_override": 167
+            },
+            {
+                "name": "Hagen",
+                "max_hp": 10033,
+                "max_hp_override": 33
+            },
+            {
+                "name": "Weimar",
+                "max_hp": 10038,
+                "max_hp_override": 38
+            }
+        ],
+        "3-334": [
+            {
+                "name": "Steiner3",
+                "max_hp": 10162,
+                "max_hp_override": 162
+            }
+        ],
+        "3-302": [
+            {
+                "name": "Prison Cage 1",
+                "max_hp": 10513,
+                "max_hp_override": 513
+            },
+            {
+                "name": "Garnet (Captured)",
+                "max_hp": 10068,
+                "max_hp_override": 68
+            }
+        ],
+        "3-301": [
+            {
+                "name": "Prison Cage 2",
+                "max_hp": 10533,
+                "max_hp_override": 533
+            },
+            {
+                "name": "Vivi (Captured)",
+                "max_hp": 10067,
+                "max_hp_override": 67
+            }
+        ],
+        "3-295": [
+            {
+                "name": "Baku II",
+                "max_hp": 10202,
+                "max_hp_override": 202
+            }
+        ],
+        "3-303": [
+            {
+                "name": "Plant Brain",
+                "max_hp": 10916,
+                "max_hp_override": 916
+            }
+        ],
+        "3-21": [
+            {
+                "name": "Black Waltz 1",
+                "max_hp": 229,
+                "max_hp_override": null
+            },
+            {
+                "name": "Sea Lion",
+                "max_hp": 472,
+                "max_hp_override": null
+            }
+        ],
+        "3-294": [
+            {
+                "name": "Black Waltz 2",
+                "max_hp": 11030,
+                "max_hp_override": 1030
+            }
+        ],
+        "3-296": [
+            {
+                "name": "Black Waltz 3",
+                "max_hp": 11128,
+                "max_hp_override": 1128
+            }
+        ],
+        "3-13": [
+            {
+                "name": "Mu (Lindblum)",
+                "max_hp": 201,
+                "max_hp_override": null
+            }
+        ],
+        "3-325": [
+            {
+                "name": "Black Mage Burmecia",
+                "max_hp": 398,
+                "max_hp_override": null
+            }
+        ],
+        "3-326": [
+            {
+                "name": "Gizamaluke",
+                "max_hp": 65535,
+                "max_hp_override": 3175
+            }
+        ],
+        "3-36": [
+            {
+                "name": "Black Mage Burmie",
+                "max_hp": 398,
+                "max_hp_override": null
+            }
+        ],
+        "3-4": [
+            {
+                "name": "Beatrix 1",
+                "max_hp": 13630,
+                "max_hp_override": 3630
+            }
+        ],
+        "3-52": [
+            {
+                "name": "Black Waltz 3 - 2",
+                "max_hp": 1292,
+                "max_hp_override": null
+            }
+        ],
+        "3-76": [
+            {
+                "name": "Ralvurahva",
+                "max_hp": 12296,
+                "max_hp_override": 2296
+            }
+        ],
+        "3-300": [
+            {
+                "name": "Antlion",
+                "max_hp": 13938,
+                "max_hp_override": 3938
+            }
+        ],
+        "3-312": [
+            {
+                "name": "Alexandria Babe",
+                "max_hp": 523,
+                "max_hp_override": null
+            }
+        ],
+        "3-298": [
+            {
+                "name": "Black Mage Cleyra",
+                "max_hp": 526,
+                "max_hp_override": null
+            },
+            {
+                "name": "Alexandria Babe",
+                "max_hp": 523,
+                "max_hp_override": null
+            }
+        ],
+        "3-297": [
+            {
+                "name": "Alexandria Babe",
+                "max_hp": 523,
+                "max_hp_override": null
+            },
+            {
+                "name": "Black Mage",
+                "max_hp": 526,
+                "max_hp_override": null
+            }
+        ],
+        "3-299": [
+            {
+                "name": "Beatrix 2",
+                "max_hp": 14736,
+                "max_hp_override": 4736
+            }
+        ],
+        "3-271": [
+            {
+                "name": "Alexandria Babe",
+                "max_hp": 459,
+                "max_hp_override": null
+            }
+        ],
+        "3-62": [
+            {
+                "name": "Alexandria Babe",
+                "max_hp": 459,
+                "max_hp_override": null
+            }
+        ],
+        "3-74": [
+            {
+                "name": "Jester",
+                "max_hp": 65535,
+                "max_hp_override": 2984
+            }
+        ],
+        "3-73": [
+            {
+                "name": "Beatrix 3",
+                "max_hp": 15709,
+                "max_hp_override": 5709
+            }
+        ],
+        "3-916": [
+            {
+                "name": "Doggo",
+                "max_hp": 899,
+                "max_hp_override": null
+            }
+        ],
+        "3-65": [
+            {
+                "name": "Black Mage Upgrade",
+                "max_hp": 623,
+                "max_hp_override": null
+            },
+            {
+                "name": "Doggo",
+                "max_hp": 899,
+                "max_hp_override": null
+            }
+        ],
+        "3-75": [
+            {
+                "name": "Ralvuimago",
+                "max_hp": 3352,
+                "max_hp_override": null
+            }
+        ],
+        "3-84": [
+            {
+                "name": "Armodulluhan",
+                "max_hp": 10818,
+                "max_hp_override": 818
+            }
+        ],
+        "3-83": [
+            {
+                "name": "Lani Bae <3",
+                "max_hp": 15708,
+                "max_hp_override": 5708
+            }
+        ],
+        "3-107": [
+            {
+                "name": "Hilgigars",
+                "max_hp": 8106,
+                "max_hp_override": null
+            }
+        ],
+        "3-127": [
+            {
+                "name": "Zombie",
+                "max_hp": 973,
+                "max_hp_override": null
+            }
+        ],
+        "3-118": [
+            {
+                "name": "Draco Zombie",
+                "max_hp": 2179,
+                "max_hp_override": null
+            }
+        ],
+        "3-116": [
+            {
+                "name": "Soulcage",
+                "max_hp": 9765,
+                "max_hp_override": null
+            }
+        ],
+        "3-132": [
+            {
+                "name": "Amarant",
+                "max_hp": 18985,
+                "max_hp_override": 8985
+            }
+        ],
+        "3-115": [
+            {
+                "name": "Mistodon",
+                "max_hp": 1473,
+                "max_hp_override": null
+            }
+        ],
+        "3-914": [
+            {
+                "name": "Mistodon",
+                "max_hp": 1473,
+                "max_hp_override": null
+            }
+        ],
+        "3-915": [
+            {
+                "name": "Mistodon",
+                "max_hp": 1473,
+                "max_hp_override": null
+            }
+        ],
+        "3-203": [
+            {
+                "name": "Tofu Man",
+                "max_hp": 3300,
+                "max_hp_override": null
+            }
+        ],
+        "3-0": [
+            {
+                "name": "Ark",
+                "max_hp": 20002,
+                "max_hp_override": null
+            }
+        ],
+        "3-525": [
+            {
+                "name": "Valia Pira",
+                "max_hp": 22119,
+                "max_hp_override": 12120
+            }
+        ],
+        "3-195": [
+            {
+                "name": "Red Dragon",
+                "max_hp": 8000,
+                "max_hp_override": null
+            }
+        ],
+        "3-200": [
+            {
+                "name": "Meltigemini",
+                "max_hp": 24348,
+                "max_hp_override": null
+            }
+        ],
+        "3-871": [
+            {
+                "name": "Taharka",
+                "max_hp": 29186,
+                "max_hp_override": null
+            }
+        ],
+        "3-2": [
+            {
+                "name": "Earth Guardian",
+                "max_hp": 20756,
+                "max_hp_override": 15567
+            }
+        ],
+        "3-15": [
+            {
+                "name": "Hecteyes",
+                "max_hp": 9567,
+                "max_hp_override": null
+            }
+        ],
+        "3-155": [
+            {
+                "name": "Amdusias",
+                "max_hp": 20926,
+                "max_hp_override": 10926
+            }
+        ],
+        "3-160": [
+            {
+                "name": "Abadon",
+                "max_hp": 20926,
+                "max_hp_override": 10926
+            }
+        ],
+        "3-163": [
+            {
+                "name": "Shell Dragon",
+                "max_hp": 20921,
+                "max_hp_override": 10921
+            }
+        ],
+        "3-889": [
+            {
+                "name": "Silver Dragon",
+                "max_hp": 34055,
+                "max_hp_override": 24055
+            }
+        ],
+        "3-890": [
+            {
+                "name": "Garland",
+                "max_hp": 50728,
+                "max_hp_override": 40728
+            }
+        ],
+        "3-891": [
+            {
+                "name": "Kuja",
+                "max_hp": 52382,
+                "max_hp_override": 42382
+            }
+        ],
+        "3-931": [
+            {
+                "name": "Nova Dragon",
+                "max_hp": 64940,
+                "max_hp_override": 54940
+            }
+        ],
+        "3-932": [
+            {
+                "name": "Maliris",
+                "max_hp": 59497,
+                "max_hp_override": null
+            }
+        ],
+        "3-933": [
+            {
+                "name": "Tiamat",
+                "max_hp": 59494,
+                "max_hp_override": null
+            }
+        ],
+        "3-934": [
+            {
+                "name": "Kraken",
+                "max_hp": 65535,
+                "max_hp_override": 59496
+            }
+        ],
+        "3-935": [
+            {
+                "name": "Lich",
+                "max_hp": 58554,
+                "max_hp_override": null
+            }
+        ],
+        "3-936": [
+            {
+                "name": "Deathguise",
+                "max_hp": 65535,
+                "max_hp_override": 55535
+            }
+        ],
+        "3-937": [
+            {
+                "name": "Trance Kuja",
+                "max_hp": 65535,
+                "max_hp_override": 55535
+            }
+        ],
+        "3-938": [
+            {
+                "name": "Necron",
+                "max_hp": 64100,
+                "max_hp_override": 54100
+            }
+        ],
+        "3-304": [
+            {
+                "name": "Plant Spider",
+                "max_hp": 33,
+                "max_hp_override": null
+            }
+        ]
+    }
+}
