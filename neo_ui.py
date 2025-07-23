@@ -43,6 +43,7 @@ class HPMonitorUI(tk.Tk):
         self.protocol("WM_DELETE_WINDOW", self.on_close)
         self.after(self.refresh_rate, self.update_loop)
 
+
     def attach_loop(self):
         while self.running:
             if not getattr(self.mem_manager, "attached", False):
@@ -52,11 +53,15 @@ class HPMonitorUI(tk.Tk):
                     self.status_label.config(text=f"Waiting to attach to {self.mem_manager.process_name}...")
             time.sleep(2)
 
+
+
     def update_loop(self):
         if not getattr(self.mem_manager, "attached", False):
             self.status_label.config(text=f"Not attached to {self.mem_manager.process_name}")
             self.after(self.refresh_rate, self.update_loop)
             return
+
+        self.game_data.override_taddler()
 
         scene_type = self.game_data.get_scene_type()
         scene_id = self.game_data.get_scene_id()

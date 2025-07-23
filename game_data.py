@@ -24,6 +24,8 @@ class FF9GameData:
             [0x28, 0x10, 0x0, 0x120, 0x40, 0x50, 0x68,0x28],
             [0x28, 0x10, 0x0, 0x120, 0x40, 0x50, 0x38],
         ]
+#359,999
+        self.tell_tale =[ [0x28, 0x10, 0x0, 0x120, 0x20],]
 
         # HP pointer chains IN BTL_LIST
         self.hp_chains = [
@@ -95,6 +97,37 @@ class FF9GameData:
         timer_value_addr = timer_obj_ptr + 0x140
         return self.mem.read_float(timer_value_addr)
 
+    def get_map(self):
+        if not self.mem.attached:
+            return  "No Mem Attached"
+        base_addr = self.mem.base_module + self.event_base_offset
+        map_obj_ptr = self.mem.read_pointer_chain(base_addr, self.event_timer_offset)
+        if map_obj_ptr is None:
+            return  "No map_obj_ptr"
+        map_value_addr = map_obj_ptr + 0x070
+        print(f"addr {map_value_addr}")
+        return self.mem.read_string(map_value_addr)
+
+    def set_map(self,value):
+        if not self.mem.attached:
+            return None
+        base_addr = self.mem.base_module + self.event_base_offset
+        map_obj_ptr = self.mem.read_pointer_chain(base_addr, self.event_timer_offset)
+        if map_obj_ptr is None:
+            return None
+        map_value_addr = map_obj_ptr + 0x070
+        return self.mem.write_string(addr=map_value_addr,string_data=value)
+
+    def replace_map(self,value):
+        if not self.mem.attached:
+            return "No Mem Attached"
+        base_addr = self.mem.base_module + self.event_base_offset
+        map_obj_ptr = self.mem.read_pointer_chain(base_addr, self.event_timer_offset)
+        if map_obj_ptr is None:
+            return "Pointer is empty..."    
+        map_value_addr = map_obj_ptr + 0x070
+        return self.mem.replace_string_preserve_size(map_value_addr, value)
+     
     def get_timer_address(self):
         if not self.mem.attached:
             return None
@@ -110,6 +143,19 @@ class FF9GameData:
         self.battle_data = self.read_BTL_Data_list()
         #self.battle_data.update(self.read_BTL_Data_array())
         return self.battle_data
+
+    def read_taddler(self):
+        base_addr = self.mem.base_module + self.base_address_offset
+        tdl_data_ptr = self.mem.read_int(self.mem.read_pointer_chain(base_addr, self.tell_tale[0])) 
+        return self.mem.read_double(tdl_data_ptr+0x40)
+
+    def override_taddler(self):
+        current = self.read_taddler()
+        if current is None or current < 359999 :
+            current+=359999 
+            base_addr = self.mem.base_module + self.base_address_offset
+            tdl_data_ptr = self.mem.read_int(self.mem.read_pointer_chain(base_addr, self.tell_tale[0])) 
+            self.mem.write_double(tdl_data_ptr+0x40,current)
 
     def read_BTL_Data(self,btl_ptr):
         data={}
@@ -185,7 +231,6 @@ class FF9GameData:
                 self.active_pointers.append(btl_data_ptr)
                           
         return btl_data
-
 
     def get_battle_key(self, scene_type, scene_id):
         if scene_type is None or scene_id is None:
